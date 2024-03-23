@@ -2,9 +2,11 @@
 
 Supports any target that gcc can compile for and glibc supports.
 
+Each bundle in `_packages` contains a single directory with all the files needed to run a static gdb with python.
 
 ## features
 - python support
+    - can run [gef](https://github.com/bata24/gef)
 
 ## disabled features
 - debuginfod
@@ -27,3 +29,10 @@ Supports any target that gcc can compile for and glibc supports.
 ## known failing architectures
 - hppa
     - python miscompiles
+
+## TODO
+- try musl maybe?
+- package other tools
+    - strace
+    - readelf
+    - elfutils
