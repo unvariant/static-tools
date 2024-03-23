@@ -1,0 +1,76 @@
+{
+    "host": "alpha-linux-gnu",
+    "modules": {
+        "ffi": {
+            "git": "https://github.com/libffi/libffi",
+            "branch": "v3.4.6"
+        },
+        "unistring": {
+            "tarball": "https://ftp.gnu.org/gnu/libunistring/libunistring-1.2.tar.gz"
+        },
+        "gmp": {
+            "tarball": "https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz"
+        },
+        "mpdecimal": {
+            "tarball": "https://www.bytereef.org/software/mpdecimal/releases/mpdecimal-4.0.0.tar.gz"
+        },
+        "b2": {
+            "git": "https://github.com/BLAKE2/libb2",
+            "branch": "v0.98.1"
+        },
+        "guile": {
+            "git": "https://git.sv.gnu.org/git/guile.git",
+            "branch": "v3.0.9",
+            "tarball": "https://ftp.gnu.org/gnu/guile/guile-3.0.9.tar.gz"
+        },
+        "ltdl": {
+            "tarball": "https://ftpmirror.gnu.org/libtool/libtool-2.4.7.tar.gz"
+        },
+        "gc": {
+            "tarball": "https://github.com/ivmai/bdwgc/releases/download/v8.2.6/gc-8.2.6.tar.gz",
+            "git": "https://github.com/ivmai/bdwgc.git",
+            "branch": "v8.2.6"
+        },
+        "atomic_ops": {
+            "git": "https://github.com/ivmai/libatomic_ops.git",
+            "branch": "v7.8.2"
+        },
+        "iconv": {
+            "tarball": "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.17.tar.gz"
+        },
+        "intl": {
+            "tarball": "https://ftp.gnu.org/pub/gnu/gettext/gettext-0.22.5.tar.gz"
+        },
+        "xcrypt": {
+            "git": "https://github.com/besser82/libxcrypt.git",
+            "branch": "v4.4.36"
+        },
+        "readline": {
+            "tarball": "https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz"
+        },
+        "elfutils": {
+            "tarball": "https://sourceware.org/elfutils/ftp/0.191/elfutils-0.191.tar.bz2",
+            "depends": ["zlib"]
+        },
+        "zlib": {
+            "git": "https://github.com/madler/zlib.git",
+            "branch": "v1.3.1"
+        },
+        "zstd": {
+            "git": "https://github.com/facebook/zstd.git",
+            "branch": "v1.5.5"
+        },
+        "mpfr": {
+            "tarball": "https://www.mpfr.org/mpfr-current/mpfr-4.2.1.tar.xz",
+            "depends": ["gmp"]
+        },
+        "cpython": {
+            "git": "https://github.com/python/cpython",
+            "branch": "3.11"
+        },
+        "binutils-gdb": {
+            "git": "https://sourceware.org/git/binutils-gdb.git",
+            "branch": "gdb-14.1-release"
+        }
+    }
+}
